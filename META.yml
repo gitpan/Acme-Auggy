@@ -15,4 +15,4 @@ name: Acme-Auggy
 resources:
   homepage: https://github.com/missaugustina/Acme-Auggy
   repository: https://github.com/missaugustina/Acme-Auggy.git
-version: 0.002
+version: 0.003

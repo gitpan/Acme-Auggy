@@ -20,17 +20,17 @@ Acme::Auggy - Just a module for my talk
 
 =head1 VERSION
 
-version 0.002
+version 0.003
+
+=head1 SYNOPSIS
+
+This module is for demonstration purposes only.
 
 =head1 METHODS
 
-=head2 print_auggy
+=head2 say_auggy
 
-Just prints my name ;)
-
-=head SYNOPSIS
-
-This module is for demonstration purposes only.
+Just returns my name ;)
 
 =head1 AUTHOR
 

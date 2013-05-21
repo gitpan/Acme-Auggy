@@ -21,7 +21,7 @@ my %WriteMakefileArgs = (
   "NAME" => "Acme::Auggy",
   "PREREQ_PM" => {},
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }
