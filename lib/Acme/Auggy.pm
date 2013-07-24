@@ -3,7 +3,13 @@ use warnings;
 package Acme::Auggy;
 
 sub say_auggy {
-    return "Auggy!";
+    return "Auggy";
+}
+
+sub say_auggy_is {
+    my ($is) = @_;
+
+    return say_auggy . ' is ' . $is;
 }
 
 1;
@@ -20,7 +26,7 @@ Acme::Auggy - Just a module for my talk
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 SYNOPSIS
 
@@ -30,7 +36,11 @@ This module is for demonstration purposes only.
 
 =head2 say_auggy
 
-Just returns my name ;)
+Just returns my name
+
+=head2 say_auggy_is
+
+Says auggy is something
 
 =head1 AUTHOR
 
